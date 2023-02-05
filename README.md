@@ -1,11 +1,11 @@
 # Simple Bootstrap Website
-A very simple page built with HTML5 and Bootstrap 5 only. This page is W3C validated.
+A very simple page built with HTML5, CSS3 and Bootstrap 5 only. This page is W3C validated.
 Enjoy :muscle:
 
 # Getting started
 1. Clone this repo
 ```
-git clone https://github.com/krzysztofhewelt/xxxx
+git clone https://github.com/krzysztofhewelt/Simple-Bootstrap-Website
 ```
 2. Open file index.html in your browser.
 
