@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>About PHP language</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="description" content="Website about some programming languages">
+    <meta name="keywords" content="programming c++ javascript php web applications bootstrap">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body class="min-vh-100 d-flex flex-column g-0 justify-content-between overflow-x-hidden">
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Programming languages</a>
+            <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/hamburger.svg" alt="hamburger">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cpp.html">C++</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="php.html">PHP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript.html">JavaScript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="p-4">
+    <figure class="figure d-block mx-auto">
+        <img src="img/logo_php.png" class="figure-img d-block mx-auto" alt="PHP logo" style="width: 500px;">
+        <figcaption class="figure-caption text-center">The PHP logo</figcaption>
+    </figure>
+    <br>
+    <div style="padding: 30px 30px 30px 30px;">
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#history" class="nav-link">History</a></li>
+            <li class="nav-item"><a href="#syntax" class="nav-link">Syntax</a></li>
+            <li class="nav-item"><a href="#video" class="nav-link">Video for beginners</a></li>
+        </ul>
+        <br>
+        <article class="mb-5">
+            <h1 id="history">History</h1>
+            <blockquote class="blockquote border-start border-5 ps-3">
+                <p class="mb-4">PHP development began in 1995 when Rasmus Lerdorf wrote several Common Gateway Interface
+                    (CGI) programs
+                    in C, which he used to maintain his personal homepage. He extended them to work with web forms and
+                    to
+                    communicate with databases, and called this implementation
+                    "Personal Home Page/Forms Interpreter" or PHP/FI.<br> PHP/FI could help to build simple, dynamic web
+                    applications. To accelerate bug reporting and to improve the code, Lerdorf initially announced the
+                    release
+                    of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the Usenet discussion group
+                    comp.infosystems.www.authoring.cgi on June 8, 1995. This release already had the basic functionality
+                    that PHP has as of 2013. This included
+                    Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl
+                    but
+                    was simpler, more limited and less consistent.<br> Lerdorf did not intend the early PHP to become a
+                    new
+                    programming language,
+                    but it grew organically, with Lerdorf noting in retrospect: "I don’t know how to stop it, there was
+                    never any intent to write a programming language […] I have absolutely no idea how to write a
+                    programming language, I just kept
+                    adding the next logical step on the way." A development team began to form and, after months of work
+                    and
+                    beta testing, officially released PHP/FI 2 in November 1997.<br> The fact that PHP lacked an
+                    original
+                    overall design but instead
+                    developed organically has led to inconsistent naming of functions and inconsistent ordering of their
+                    parameters. In some cases, the function names were chosen to match the lower-level libraries which
+                    PHP
+                    was "wrapping", while in
+                    some very early versions of PHP the length of the function names was used internally as a hash
+                    function,
+                    so names were chosen to improve the distribution of hash values.</p>
+                <footer class="blockquote-footer">
+                    ictea - <cite>What is the PHP programming language?</cite>
+                </footer>
+            </blockquote>
+        </article>
+        <article class="mb-5">
+            <h1 id="syntax">Syntax</h1>
+            <div class="border-start border-5 ps-3">
+                The following "Hello, World!" program is written in PHP code embedded in an HTML document:<br>
+                <code>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;PHP Test&lt;/title&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;?php echo '&lt;p&gt;Hello World&lt;/p&gt;'; ?&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+                    &lt;/html&gt;
+                </code>
+                <br><br> Example of PHP for loop:<br>
+                <code>
+                    &lt;?php<br>
+                    &nbsp;&nbsp;&nbsp;for ($x = 0; $x &lt;= 100; $x++) {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "The number is: $x";<br>
+                    &nbsp;&nbsp;&nbsp;} <br>
+                    ?&gt;
+                </code>
+                <br><br>
+                <b>Below is table with data types in PHP:</b>
+                <div class="table-responsive">
+                    <table class="table border-1 table-striped">
+                        <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Example</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Double</td>
+                            <td>5.65</td>
+                            <td>A floating-point number, decimal</td>
+                        </tr>
+                        <tr>
+                            <td>Integer</td>
+                            <td>4</td>
+                            <td>A whole number</td>
+                        </tr>
+                        <tr>
+                            <td>String</td>
+                            <td>"Hello World!"</td>
+                            <td>A group of characters</td>
+                        </tr>
+                        <tr>
+                            <td>Boolean</td>
+                            <td>True</td>
+                            <td>One of two values: true or false</td>
+                        </tr>
+                        <tr>
+                            <td>Object</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Array</td>
+                            <td>{0, 1, 2, 3}</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>NULL</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h1 id="video">Video of beginners</h1>
+            <b class="fs-3">Beginner PHP Tutorial - 1 - Introduction to PHP</b>
+            <div class="container-md m-0 p-0">
+                <div class="video-container">
+                    <iframe width="540" height="315" src="https://www.youtube.com/embed/iCUV3iv9xOs"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+    </div>
+</main>
+<footer class="w-100 p-4" style="background-color: #303030;">
+    <!-- Footer and navigation -->
+    <div class="row">
+        <div class="col-sm-3">
+            <nav>
+                <ol class="list-unstyled">
+                    <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                    <li><a class="text-decoration-none" href="cpp.html">Learn C++</a></li>
+                    <li><a class="text-decoration-none" href="php.html">Learn PHP</a></li>
+                    <li><a class="text-decoration-none" href="javascript.html">Learn JavaScript</a></li>
+                    <li><a class="text-decoration-none" href="contact.html">Contact with us</a></li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-sm-3">
+            <div class="form-group text-white-50">
+                <label class="fw-bold" for="language">Change language:</label>
+                <select class="form-select" id="language">
+                    <option value="English" selected>English</option>
+                    <option value="Polish">Polish</option>
+                </select>
+                <p class="mt-3">
+                    Copyright &copy; 2023
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6 text-white-50">
+            <dl>
+                <dt class="fw-bold">Some programming quotes:</dt>
+                <dd class="m-0 ms-3"><i><q>Java is to JavaScript what Car is to Carpet.</q> ~ Chris Heilmann</i></dd>
+                <dd class="m-0 ms-3"><i><q>First, solve the problem. Then, write the code.</q> ~ John Johnson</i></dd>
+                <dd class="m-0 ms-3"><i><q>Copy and paste is a design error.</q> ~ David Parnas</i></dd>
+                <dd class="m-0 ms-3"><i><q>Before software can be reusable it first has to be usable.</q> ~ Ralph
+                    Johnson</i></dd>
+            </dl>
+        </div>
+    </div>
+    <!--scrollup-->
+    <a href="#" class="position-fixed bottom-0 end-0 m-3" title="Go to top">
+        <img src="img/arrow_up.png" alt="go up">
+    </a>
+</footer>
+</body>
+</html>
