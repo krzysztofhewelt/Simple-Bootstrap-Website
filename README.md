@@ -20,7 +20,8 @@ git clone https://github.com/krzysztofhewelt/Simple-Bootstrap-Website
     <img src="screenshots/responsive_view_2.png" alt="responsive view second">
 </details>
 
-# Technologies
+# Technologies and tools
 - HTML5
 - CSS3
 - Bootstrap 5
+- IDE: Jetbrains Webstorm
