@@ -10,15 +10,12 @@ git clone https://github.com/krzysztofhewelt/Simple-Bootstrap-Website
 2. Open file index.html in your browser.
 
 # Screenshots
-<details>
-    <summary>Click to show</summary>
-    <img src="screenshots/main_view.png" alt="main page">
-    <img src="screenshots/language_view.png" alt="language view">
-    <img src="screenshots/contact_view.png" alt="contact page">
-    <img src="screenshots/resources_view.png" alt="resources page">
-    <img src="screenshots/responsive_view.png" alt="responsive view">
-    <img src="screenshots/responsive_view_2.png" alt="responsive view second">
-</details>
+<img src="screenshots/main_view.png" alt="main page">
+<img src="screenshots/language_view.png" alt="language view">
+<img src="screenshots/contact_view.png" alt="contact page">
+<img src="screenshots/resources_view.png" alt="resources page">
+<img src="screenshots/responsive_view.png" alt="responsive view">
+<img src="screenshots/responsive_view_2.png" alt="responsive view second">
 
 # Technologies and tools
 - HTML5
